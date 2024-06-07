@@ -66,7 +66,7 @@ namespace Cuenta.Controllers
 
             if (!salida.Ok)
             {
-                response.Resultado.AgregarError(GestionErrores.GC_Men_101, 400, mensaje: salida.Mensaje, codigoInterno: GestionErrores.GC_Cod_101);
+                response.Resultado.AgregarError(GestionErrores.C_Men_101, 400, mensaje: salida.Mensaje, codigoInterno: GestionErrores.C_Cod_101);
 
                 return response.ObtenerResult();
             }
